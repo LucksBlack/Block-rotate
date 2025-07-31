@@ -3,7 +3,6 @@
 Veja o projeto completo:  
 👉 [https://blocogiratorio.netlify.app/](https://blocogiratorio.netlify.app/)
 
----
 
 ## 📦 Estrutura HTML
 
@@ -18,12 +17,10 @@ Veja o projeto completo:
     <div class="face bottom"></div>
   </div>
 </div>
-
-
----
+```
 
 🎨 Estilização CSS
-
+```css
 body {
   margin: 0;
   background: #101820;
@@ -67,20 +64,16 @@ body {
   from { transform: rotateX(0) rotateY(0); }
   to   { transform: rotateX(360deg) rotateY(360deg); }
 }
-
-
----
+```
 
 🧠 Interatividade com JS (opcional)
-
+```js
 document.querySelector('.cube').addEventListener('click', () => {
   const sounds = ["click1.mp3", "click2.mp3"];
   const audio = new Audio(sounds[Math.floor(Math.random() * sounds.length)]);
   audio.play();
 });
-
-
----
+```
 
 📘 Créditos
 
